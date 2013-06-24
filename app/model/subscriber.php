@@ -16,7 +16,6 @@ class Subscriber{
 
 	function validate(){
 		//$name is not empty and email is valid email value;
-		//!preg_match("/[0-9a-z_]+@[0-9a-z_^\.-]+\.[a-z]{2,3}/i")
 		return (trim($this->name) != "") && 
 			   (filter_var($this->email, FILTER_VALIDATE_EMAIL));
 	}

@@ -11,7 +11,6 @@ class News{
 
 	function save(){
 		$query = "UPDATE `settings` SET `title`='{$this->title}', `text`='{$this->text}' WHERE `id`=1";
-		//echo "<pre>".$query."</pre>";
 		$resCode = mysql_query($query); // if success  -> $resCode = 1;
 		if ($resCode != 1) {
 			$resCode = -1;
