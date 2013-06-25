@@ -1,4 +1,4 @@
-<?
+<?//php
 require_once('app/controller/path.php');
 class Pagination{
 	var $adress;

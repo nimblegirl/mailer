@@ -1,4 +1,4 @@
-<?
+<?//php
 require_once('connection.php');
 require_once('../model/subscriber.php');
 require_once('../model/news.php');

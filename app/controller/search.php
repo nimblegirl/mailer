@@ -1,4 +1,4 @@
-<?
+<?//php
 	require_once("path.php");
 	$nameSearch = htmlspecialchars($_GET['name']);
 	$emailSearch = htmlspecialchars($_GET['email']);

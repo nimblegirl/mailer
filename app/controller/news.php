@@ -1,4 +1,4 @@
-<?
+<?//php
 define(STATUS_OK, 1);
 define(STATUS_ERROR, -1);
 require_once('../model/news.php');

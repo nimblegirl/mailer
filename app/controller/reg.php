@@ -1,4 +1,4 @@
-<?
+<?//php
 	define("STATUS_OK", 1);
 	define("STATUS_EMAIL_ERROR", 0);
 	define("STATUS_EMAIL_EXIST", -1);

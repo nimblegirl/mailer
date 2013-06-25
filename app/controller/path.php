@@ -1,11 +1,11 @@
-<?
+<?//php
 class Path{
 	// $url - строка http://....php?params.. параметрами
 	// $varname - переменная которую заменяем
  	// $value если NULL - убираем переменную совсем	
 	// $clean превращать ли ?one=&two= 
 	static function replaceVar($url,$varname,$value = NULL,$clean = TRUE)
-   	{              // в ?one&two (так адрес красивее)
+   	{              // в ?one&two 
 	    
 	    // Версия функции "substitue get parameter" без регулярных выражений
 	    
